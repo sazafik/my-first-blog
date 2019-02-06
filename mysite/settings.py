@@ -25,7 +25,7 @@ SECRET_KEY = '=go$x5au^c_+f7hgqv=t$z8)dvudufk#)ep#juj!*7ph6s5e4!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sazafik.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'http://sazafik.pythonanywhere.com/']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'blog',
+	
 ]
 
 MIDDLEWARE = [
